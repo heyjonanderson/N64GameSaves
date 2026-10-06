@@ -1,7 +1,7 @@
 # N64 Game Saves
 
 Unlocked or near-complete save files for Nintendo 64 games, converted for the
-SummerCart64, MiSTer, Analogue 3D, Project64 and EverDrive.
+SummerCart64, MiSTer, Analogue 3D, Project64, and EverDrive.
 
 - **55 cartridge saves** (EEPROM, SRAM, FlashRAM): 37 ready, 17 need review, 1 revision mismatch
 - **92 Controller Pak saves**: 49 ready, 43 need review
