@@ -101,8 +101,6 @@ from the EverDrive file menu. If you have an EverDrive, please open an issue wit
   patch, or a byte order that had to be inferred. The reason is in `data/games.csv`.
 - **revision mismatch**: made for a different ROM revision than the one listed. Test first.
 
-Controller Pak saves have not been tested on hardware yet.
-
 ## Games
 
 | Game | Save | Status | Completion (source's description) |
