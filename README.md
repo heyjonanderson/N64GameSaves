@@ -6,6 +6,8 @@ SummerCart64, ModRetro M64, MiSTer, Analogue 3D, Project64, and EverDrive.
 - **55 cartridge saves** (EEPROM, SRAM, FlashRAM): 37 ready, 17 need review, 1 revision mismatch
 - **92 Controller Pak saves**: 49 ready, 43 need review
 
+Inspired by Pezz82's [MemCard-Pro-Packs](https://github.com/Pezz82/MemCard-Pro-Packs), which does the same thing for PS1.
+
 Every save was collected from a public source and credited in [CREDITS.md](CREDITS.md).
 No ROMs are included.
 
