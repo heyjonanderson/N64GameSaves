@@ -1,0 +1,3 @@
+saves/** binary
+originals/** binary
+*.csv text eol=lf

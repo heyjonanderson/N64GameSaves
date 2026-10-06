@@ -1,0 +1,22 @@
+These are fully unlocked saves for the Nintendo 64 AKI wrestling games. These are only the save files, all have been tested. These have all the unlockables and no CAWs, should serve as a good base if you don't want to spend the time unlocking everything. I include 2 versions: the SRAM byteswapped version that works in Project64 and SRM conversions for RetroArch (more may come). Here are the specifics:
+WCW vs. NWO World Tour: Converted from a DexDrive Memory Pak save, all wrestlers and the extra league unlocked. By TenebrusoM from GameFAQs.
+
+WCW/NWO Revenge: A straight dump from my cart with all items unlocked. Wrath has a small glitch and technically was not an official character. I don't mind but in case someone wants it, then here you go. I made this.
+
+WCW/NWO Revenge (Wrath): A GameShark save file with Wrath unlocked. Wrath is only unlockable via GameShark. I made this.
+
+WWF Wrestlemania 2000: All wrestlers and arenas unlocked. By DarkSynn337 from GameFAQs.
+
+WWF No Mercy: All wrestlers unlocked and everything purchased from the SmackDown Mall. I dumped this from my cart. 99% certain this is a GameShark save made after my old file nuked itself. Confirmed to work in both revisions 0 and 1.
+
+Virtual Pro Wrestling 64: Renamed and recostumed save (with wrestler names in English and the attires of unlicensed wrestlers changed to match their real life attires). By Alphadrum from the Krikzz forum.
+
+Virtual Pro Wrestling 2 Oudou Keishou: Renamed and recostumed save (with wrestler names in English and the 
+attires of unlicensed wrestlers changed to match their real life 
+attires). For JPN ROM. By Kerr Avon and Saturnuu from the Krikzz forums.
+Virtual Pro Wrestling 2 SKStylez Patch: Renamed and recostumed save (with wrestler names in English and the 
+attires of unlicensed wrestlers changed to match their real life 
+attires) for an AKStylez English translation patched rom. By Amir Dabydeen on YouTube.
+[UPDATE] Added a new folders with saves for Ares, Everdrive and Summercart64. Only Ares and Summercart64 are tested.
+
+Source: https://archive.org/details/n64-aki-game-saves (uploaded by N64AKISaves, 2024-04-22)
