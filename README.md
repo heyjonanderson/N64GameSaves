@@ -70,10 +70,10 @@ the core's menu.
 
 Copy the `Library` folder from `saves/analogue3d/` to the root of the A3D's SD card,
 merging with the `Library` folder already there. Each game folder is matched by the
-8-digit ID at the end of its name (the CRC32 of the first 8 KB of the ROM), so the
-console picks it up without booting the game first. Back up any existing
-`controller_pak.img` you want to keep before overwriting it. Turn on the virtual
-Controller Pak for the game.
+8-digit ID at the end of its name (the CRC32 of the first 8 KB of the ROM). The game
+won't show up in the A3D library until you boot it once, but when you do, it loads the
+Pak from its folder. Back up any existing `controller_pak.img` you want to keep before
+overwriting it. Turn on the virtual Controller Pak for the game.
 
 Cartridge saves on the A3D come from your flashcart (use the SummerCart64 files).
 
