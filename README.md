@@ -1,7 +1,7 @@
 # N64 Game Saves
 
 Unlocked or near-complete save files for Nintendo 64 games, converted for the
-SummerCart64, MiSTer, Analogue 3D, Project64, and EverDrive.
+SummerCart64, ModRetro M64, MiSTer, Analogue 3D, Project64, and EverDrive.
 
 - **55 cartridge saves** (EEPROM, SRAM, FlashRAM): 37 ready, 17 need review, 1 revision mismatch
 - **92 Controller Pak saves**: 49 ready, 43 need review
@@ -17,7 +17,8 @@ No ROMs are included.
 | `saves/mister/` | Cartridge saves (`.eep` `.sra` `.fla`) and Controller Pak saves (`<ROM name>_1.cpk`) |
 | `saves/analogue3d/` | Controller Pak saves as an Analogue 3D `Library/N64/Games` tree |
 | `saves/emulator/` | Project64 format: cartridge saves and Controller Paks (`_Cont_1.mpk`) |
-| `saves/everdrive/` | `<ROM name>.srm` `.eep` `.fla` and `.mpk`. **Untested**, see below |
+| `saves/controller-pak/` | Controller Pak images as `<ROM name>.mpk` (raw 32 KB), for writing to a real Controller Pak |
+| `saves/everdrive/` | Cartridge saves as `<ROM name>.srm` `.eep` `.fla`. **Untested**, see below |
 | `originals/` | Every save exactly as downloaded, in its original format |
 | `data/games.csv` | One row per ROM in the set these were built against (343 No-Intro 1G1R ROMs, mostly USA): CRC32, SHA1, save type, status, source, file paths |
 | `data/credits.csv` | Creator, source link, stated completion and redistribution notes for every save |
@@ -43,8 +44,21 @@ Copy the `.sav` files into the `saves` folder that sits next to your ROMs
 (the menu's default). Tested on an original N64 and an Analogue 3D with GoldenEye 007,
 Super Smash Bros., Paper Mario, F-Zero X and Pokemon Stadium.
 
-The SummerCart64 has no Controller Pak emulation, so Pak saves need a real Controller
-Pak (or play on an Analogue 3D, which emulates one).
+The SummerCart64 can't emulate a Controller Pak, but N64FlashcartMenu 0.3.4 and later
+can write one of the `saves/controller-pak/` files onto a real Controller Pak: with the
+Pak in a controller, browse to the `.mpk` file in the menu and restore it. This
+overwrites everything on the Pak, so back it up first from the menu's Controller Pak
+manager (press Start). On an Analogue 3D, use its virtual Controller Pak instead
+(see below).
+
+### ModRetro M64
+
+Cartridge saves work through your flashcart: the M64 runs the SummerCart64 and the
+EverDrive X5/X7, so use the files for your cart. Not tested on an M64 yet.
+
+The M64 has no virtual Controller Pak yet (it's on ModRetro's update roadmap), so Pak saves
+go on a real Controller Pak, written with the SummerCart64 menu as described above or with
+an EverDrive.
 
 ### MiSTer
 
@@ -76,8 +90,8 @@ the ROM; rename them to whatever Project64 creates.
 The save data is the same as the SummerCart64 files (the byte order was checked against
 an EverDrive pack), only renamed: `.srm` for SRAM, `.eep`, `.fla`. Community docs put
 saves in `ED64/gamedata`; Krikzz's X7 manual says `ED64/save`. EverDrives don't emulate
-the Controller Pak, but the `.mpk` files can be written to a real Pak from the EverDrive
-file menu. If you have an EverDrive, please open an issue with what works.
+the Controller Pak, but the `saves/controller-pak/` files can be written to a real Pak
+from the EverDrive file menu. If you have an EverDrive, please open an issue with what works.
 
 ## Status
 
